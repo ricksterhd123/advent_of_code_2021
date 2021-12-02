@@ -9,6 +9,7 @@ function countIncrease(list)
     return count
 end
 
+-- part two
 function countIncreaseSum(list, n)
     assert(#list >= n)
 
