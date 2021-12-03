@@ -23,7 +23,6 @@ function readCommand(state, instruction)
 
     if command == "forward" then
         z = z + (state.aim * arg)
-        --aim = state.aim
     end
 
     return y, z, aim
